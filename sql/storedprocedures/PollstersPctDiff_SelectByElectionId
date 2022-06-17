@@ -16,29 +16,29 @@ GO
 -- Note:
 -- =============================================
 ALTER proc [dbo].[PollstersPctDiff_SelectByElectionId]
-				   @ElectionId int
+		 @ElectionId int
 as
 
 /*
 Declare		 @ElectionId int = 1
 
 Execute		 [dbo].[PollstersPctDiff_SelectByElectionId]
-				   @ElectionId				
+	         @ElectionId				
 */
 
 BEGIN
 
 Select		 PV.PollsterId,
-				   PV.Name AS Pollster,
-				   PV.CandidateId,
-				   PV.TotalPolls,
-				   cast(ROUND(PV.AVGPCT,2) as numeric(38,2)) AS AVGPCT,
-				   cast(ROUND(PV.AVGPCT - ER.[Percentage],2) as numeric(36,2)) AS Diff
+	         PV.Name AS Pollster,
+		 PV.CandidateId,
+	         PV.TotalPolls,
+	         cast(ROUND(PV.AVGPCT,2) as numeric(38,2)) AS AVGPCT,
+	         cast(ROUND(PV.AVGPCT - ER.[Percentage],2) as numeric(36,2)) AS Diff
 
-From			[dbo].[PollsterAVGPCTS] AS PV
-					JOIN  dbo.ElectionResults as ER 
-						ON ER.CandidateId = PV.CandidateId 
-							AND ElectionId = @ElectionId
+From	         [dbo].[PollsterAVGPCTS] AS PV
+		 JOIN  dbo.ElectionResults as ER 
+		 ON ER.CandidateId = PV.CandidateId 
+		 AND ElectionId = @ElectionId
 				
 END
 			
