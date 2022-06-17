@@ -1,0 +1,159 @@
+.color-A {
+    background-color: rgb(97, 220, 162) !important;
+    border-radius: 50%;
+    border-collapse: collapse;
+    color: #4d4c4c !important;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+    vertical-align: middle;
+}
+
+.color-A- {
+    background-color: rgb(90, 219, 158) !important;
+    border-radius: 50%;
+    border-collapse: collapse;
+    color: #4d4c4c !important;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+    vertical-align: middle;
+}
+
+.color-B\+ {
+    background-color: rgb(64, 186, 129) !important;
+    border-radius: 50%;
+    border-collapse: collapse;
+    color: #4d4c4c !important;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+    vertical-align: middle;
+}
+
+.color-B {
+    background-color: rgb(60, 187, 128) !important;
+    border-radius: 50%;
+    border-collapse: collapse;
+    color: #4d4c4c !important;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+    vertical-align: middle;
+}
+
+.color-B- {
+    background-color: rgb(55, 193, 129) !important;
+    border-radius: 50%;
+    border-collapse: collapse;
+    color: #4d4c4c !important;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+    vertical-align: middle;
+}
+
+.color-C\+ {
+    background-color: rgb(42, 172, 111) !important;
+    border-radius: 50%;
+    border-collapse: collapse;
+    color: #4d4c4c !important;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+    vertical-align: middle;
+}
+
+.color-C {
+    background-color: rgb(36, 160, 102) !important;
+    border-radius: 50%;
+    border-collapse: collapse;
+    color: #4d4c4c !important;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+    vertical-align: middle;
+}
+
+.color-D {
+    background-color: rgb(14, 109, 65) !important;
+    border-radius: 50%;
+    border-collapse: collapse;
+    color: #4d4c4c !important;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+    vertical-align: middle;
+}
+
+.color-F {
+    background-color: rgb(13, 148, 85) !important;
+    border-radius: 50%;
+    border-collapse: collapse;
+    color: #4d4c4c !important;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+    vertical-align: middle;
+}
+
+.background-color {
+    background-color: rgb(255, 255, 255);
+}
+
+.boldPollster {
+    font-size: 18px;
+}
+
+.boldName {
+    font-size: 18px;
+}
+
+.electionSelection {
+    width: 200px;
+}
